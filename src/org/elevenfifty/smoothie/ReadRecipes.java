@@ -1,7 +1,5 @@
 package org.elevenfifty.smoothie;
 
-import static org.apache.commons.lang3.StringUtils.equalsIgnoreCase;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
 
-import org.apache.commons.lang3.StringUtils;
 import org.elevenfifty.smoothie.fruit.Apple;
 import org.elevenfifty.smoothie.fruit.Banana;
 import org.elevenfifty.smoothie.fruit.Blueberry;
@@ -140,5 +137,10 @@ public class ReadRecipes {
 
 		return null;
 		}
+
+	private boolean equalsIgnoreCase(String string, String ingredientName) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	}
 
