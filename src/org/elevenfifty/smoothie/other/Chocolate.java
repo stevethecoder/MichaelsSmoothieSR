@@ -6,7 +6,7 @@ public class Chocolate implements Ingredient {
 
 	@Override
 	public String getName() {
-		return "Chocolate syrup";
+		return "Chocolate Syrup";
 	}
 
 }

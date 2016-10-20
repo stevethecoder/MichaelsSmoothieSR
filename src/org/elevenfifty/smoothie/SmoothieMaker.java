@@ -56,23 +56,23 @@ public class SmoothieMaker {
 		fruit.add(new PeanutButter());
 		fruit.add(new Chocolate());
 		fruit.add(new ProteinPowder());
-		Recipe masterIngredientList = new Recipe("Full Ingredient List", fruit);
+		Recipe strawberryBanana = new Recipe("Strawberry Banana Smoothie", fruit);
 
-		Recipe smoothie = new Recipe("1");
+		Recipe smoothie = new Recipe("Odds & Ends Smoothie");
 		smoothie.addIngredient(new Apple());
 		smoothie.addIngredient(new Orange());
 		smoothie.addIngredient(new Watermelon());
 		smoothie.addIngredient(new Lemon());
 		smoothie.addIngredient(new Pear());
 			
-		printRecipe(masterIngredientList);
+		printRecipe(strawberryBanana);
 		printRecipe(smoothie);
 		
 //		smoothie.print();
 	}
 	
 	public static void printRecipe(Recipe recipe) {
-		System.out.println("Ingredient List: " + recipe.toString());
+		System.out.println("Smoothie: " + recipe.toString());
 	}
 
 }
